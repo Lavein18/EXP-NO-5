@@ -1,0 +1,18 @@
+.main {
+ margin: auto;
+ box-sizing: border-box;
+ border: 1rem grey solid;
+ background-color: rgb(234, 231, 231);
+ height: 50rem;
+}
+form {
+ display: flex;
+ flex-direction: column;
+}
+form > * {
+padding: 2rem 10rem;
+}
+body {
+ display: flex;
+ justify-content: center;
+}
